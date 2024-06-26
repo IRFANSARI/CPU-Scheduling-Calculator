@@ -6,25 +6,16 @@
 
 .container {
     min-height: 100vh;
-    width: 100%;
 }
 
-.hidden {
-    display: none;
+.output-table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
 }
 
-.input {
-    width: 25%;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 7px;
-    float: left;
-    margin: 5rem 0rem 0rem 3rem;
-}
-
-.output {
-    width: 70%;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 7px;
-    float: left;
-    margin: 5rem 0rem 0rem 3rem;
+.svg {
+    line-height: 1;
+    height: 1em;
+    width: 1em; 
 }
